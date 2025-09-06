@@ -1,0 +1,44 @@
+body {
+  background-color: #181818;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+a {
+  color: #80cbc4;
+}
+
+a:hover {
+  color: #ffb86c;
+}
+
+header, nav, footer {
+  background-color: #232323;
+  color: #e0e0e0;
+}
+
+code, pre {
+  background-color: #232323;
+  color: #ffb86c;
+  border-radius: 4px;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffb86c;
+}
+
+blockquote {
+  background: #232323;
+  border-left: 4px solid #80cbc4;
+  color: #b0b0b0;
+  padding: 0.5em 1em;
+}
+
+hr {
+  border-color: #444;
+}
