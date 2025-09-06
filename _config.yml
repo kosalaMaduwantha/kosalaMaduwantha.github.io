@@ -23,9 +23,6 @@ github_username: kosalaMaduwantha
 minimal_mistakes_skin: dark
 search: true
 
-# Custom CSS for theme overrides
-custom_css:
-  - /assets/css/custom.css
 
 # Build settings
 markdown: kramdown
