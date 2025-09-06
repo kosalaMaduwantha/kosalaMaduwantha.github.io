@@ -1,0 +1,49 @@
+/* Custom CSS overrides for Minimal Mistakes Dark Theme */
+
+/* Override the background color for the dark theme */
+.dark {
+  /* Main page background */
+  background-color: #1a1a2e !important;
+}
+
+/* Target the main body background when dark theme is active */
+body {
+  background-color: #1a1a2e !important;
+}
+
+/* Override the page wrapper background */
+.page {
+  background-color: #1a1a2e !important;
+}
+
+/* Override the masthead (header) background for better consistency */
+.masthead {
+  background-color: #16213e !important;
+}
+
+/* Override the sidebar background */
+.sidebar {
+  background-color: #16213e !important;
+}
+
+/* Ensure content areas maintain the custom background */
+.page__content {
+  background-color: #1a1a2e !important;
+}
+
+/* Override archive pages background */
+.archive {
+  background-color: #1a1a2e !important;
+}
+
+/* Override post/page background */
+.single {
+  background-color: #1a1a2e !important;
+}
+
+/* Additional targeting for dark theme specificity */
+[data-theme="dark"] body,
+[data-theme="dark"] .page,
+[data-theme="dark"] .page__content {
+  background-color: #1a1a2e !important;
+}
