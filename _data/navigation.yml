@@ -19,3 +19,13 @@ home:
     url: "#personal-projects"
   - title: "Contact"
     url: "#contact"
+
+sidebar:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Posts"
+    url: /posts/
+  - title: "Contact"
+    url: /contact/
