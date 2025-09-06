@@ -10,7 +10,7 @@ main:
 
 projects:
   - title: "Contract Inspector"
-    url: "###1-contract-inspector"
+    url: "/personal-projects/###1-contract-inspector"
   - title: "Changed Data Capture (CDC) File Processor"
-    url: "###2-changed-data-capture-cdc-file-processor"
+    url: "/personal-projects/###2-changed-data-capture-cdc-file-processor"
   

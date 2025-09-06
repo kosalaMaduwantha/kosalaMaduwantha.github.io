@@ -2,10 +2,10 @@
 title: "Personal Projects"
 permalink: /personal-projects/
 layout: single
+classes: wide
 author_profile: true
 sidebar:
   nav: "projects"
-classes: wide
 ---
 
 ### 1. Contract Inspector
