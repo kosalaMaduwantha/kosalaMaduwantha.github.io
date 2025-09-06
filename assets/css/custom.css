@@ -1,7 +1,7 @@
 /* Move sidebar navigation further left */
 .sidebar {
   left: 0 !important;               /* Make sure sidebar is flush to the left edge */
-  margin-left: -10px !important;    /* Adjust this value as needed */
+  margin-left: -50px !important;    /* Adjust this value as needed */
 }
 
 /* Optionally, adjust the main content area so it doesn't overlap */
