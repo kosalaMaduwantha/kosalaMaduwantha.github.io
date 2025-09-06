@@ -4,6 +4,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
 author_profile: true
+sidebar:
+  nav: "home"
 ---
 
 Data Engineer, having 3 plus years of industrial experience specialized in designing and implementing scalable server-side applications and data ingestion pipelines. Proficient in Python, with experience in API development, third-party service integration, and building scalable data pipelines from various data sources. Adept at learning new technologies and applying them effectively to create high-performance, maintainable solutions.
