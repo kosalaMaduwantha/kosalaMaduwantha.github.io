@@ -19,23 +19,21 @@ Hi, I'm Kosala, a Data Engineer specializing in:
 - Visualization: Tableau, Power BI
 - Version Control: Git, GitHub
 
-## Projects
+---
 
-### 1. Real-Time Data Pipeline
+# Projects
+
+## 1. Real-Time Data Pipeline
 - Built a streaming pipeline using Kafka and Spark Streaming.
 - Deployed on AWS with automated scaling.
 
-### 2. ETL for E-commerce Analytics
+## 2. ETL for E-commerce Analytics
 - Designed ETL workflows in Airflow.
 - Integrated multiple data sources into a Redshift data warehouse.
 
-### 3. Data Lake Implementation
+## 3. Data Lake Implementation
 - Architected a data lake on AWS S3.
 - Automated ingestion and transformation using Glue.
-
-## Blog
-
-Check out my articles on data engineering [here](./blog).
 
 ## Contact
 
