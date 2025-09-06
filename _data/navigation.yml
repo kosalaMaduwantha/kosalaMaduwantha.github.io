@@ -1,15 +1,16 @@
 main:
+  - title: "Personal Projects"
+    url: /personal-projects/
   - title: "Docs"
     url: /docs/
   - title: "Posts"
     url: /posts/
-  - title: "Personal Projects"
-    url: /personal-projects/
+  
 
 
 projects:
   - title: "Contract Inspector"
-    url: "#1-contract-inspector"
+    url: "###1-contract-inspector"
   - title: "Changed Data Capture (CDC) File Processor"
-    url: "#2-changed-data-capture-cdc-file-processor"
+    url: "###2-changed-data-capture-cdc-file-processor"
   
