@@ -1,49 +1,172 @@
 /* Custom CSS overrides for Minimal Mistakes Dark Theme */
+/* This file overrides the default dark theme background colors */
 
-/* Override the background color for the dark theme */
-.dark {
-  /* Main page background */
+/* Root level background override */
+html, body {
   background-color: #1a1a2e !important;
 }
 
-/* Target the main body background when dark theme is active */
-body {
-  background-color: #1a1a2e !important;
-}
-
-/* Override the page wrapper background */
+/* Main content areas */
+.layout--single .page,
+.layout--archive .page,
+.layout--home .page,
 .page {
   background-color: #1a1a2e !important;
 }
 
-/* Override the masthead (header) background for better consistency */
-.masthead {
-  background-color: #16213e !important;
-}
-
-/* Override the sidebar background */
-.sidebar {
-  background-color: #16213e !important;
-}
-
-/* Ensure content areas maintain the custom background */
+/* Page content wrapper */
 .page__content {
   background-color: #1a1a2e !important;
 }
 
-/* Override archive pages background */
+/* Initial content and search content */
+.initial-content,
+.search-content {
+  background-color: #1a1a2e !important;
+}
+
+/* Archive pages */
 .archive {
   background-color: #1a1a2e !important;
 }
 
-/* Override post/page background */
+/* Single post/page layouts */
 .single {
   background-color: #1a1a2e !important;
 }
 
-/* Additional targeting for dark theme specificity */
-[data-theme="dark"] body,
-[data-theme="dark"] .page,
-[data-theme="dark"] .page__content {
+/* Masthead (header) styling */
+.masthead {
+  background-color: #16213e !important;
+  border-bottom: 1px solid #333 !important;
+}
+
+/* Navigation */
+.greedy-nav {
+  background: #16213e !important;
+}
+
+.greedy-nav a {
+  color: #fff !important;
+}
+
+.greedy-nav a:hover {
+  color: #ddd !important;
+}
+
+/* Sidebar styling */
+.sidebar {
+  background-color: #16213e !important;
+}
+
+/* Author profile in sidebar */
+.author__avatar img {
+  border: 3px solid #333 !important;
+}
+
+.author__content {
+  background-color: transparent !important;
+}
+
+/* Footer styling */
+.page__footer {
+  background-color: #16213e !important;
+  border-top: 1px solid #333 !important;
+}
+
+.page__footer-follow {
+  background-color: #16213e !important;
+}
+
+/* Code blocks and syntax highlighting */
+.highlight,
+.highlighter-rouge .highlight {
+  background-color: #2d3748 !important;
+  border: 1px solid #4a5568 !important;
+}
+
+pre.highlight {
+  background-color: #2d3748 !important;
+}
+
+/* Tables */
+table {
+  background-color: #2d3748 !important;
+  border: 1px solid #4a5568 !important;
+}
+
+th, td {
+  border: 1px solid #4a5568 !important;
+}
+
+th {
+  background-color: #4a5568 !important;
+  color: #fff !important;
+}
+
+/* Pagination */
+.pagination {
   background-color: #1a1a2e !important;
+}
+
+.pagination li a,
+.pagination li span {
+  background-color: #16213e !important;
+  border: 1px solid #333 !important;
+  color: #fff !important;
+}
+
+.pagination li a:hover {
+  background-color: #2d3748 !important;
+}
+
+/* Search results */
+.search-content {
+  background-color: #1a1a2e !important;
+}
+
+/* Notices and alerts */
+.notice {
+  background-color: #2d3748 !important;
+  border-left: 4px solid #3498db !important;
+}
+
+/* Archive grid and list items */
+.archive__item {
+  background-color: #1a1a2e !important;
+}
+
+/* Feature rows */
+.feature__wrapper {
+  background-color: #1a1a2e !important;
+}
+
+.feature__item {
+  background-color: #16213e !important;
+}
+
+/* Ensure all wrapper elements maintain the theme */
+.wrapper {
+  background-color: #1a1a2e !important;
+}
+
+/* Override any remaining default backgrounds */
+main {
+  background-color: #1a1a2e !important;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  background-color: #16213e !important;
+}
+
+/* Table of contents */
+.toc {
+  background-color: #16213e !important;
+  border: 1px solid #333 !important;
+}
+
+.toc .nav__title {
+  background-color: #2d3748 !important;
+  color: #fff !important;
 }

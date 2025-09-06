@@ -2,15 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-// Override theme variables before importing the theme
-$background-color: #1a1a2e !default;
-$text-color: #eaeaea !default;
-$masthead-link-color: #fff !default;
-$masthead-link-color-hover: #ddd !default;
-$link-color: #3498db !default;
-
-// Import the theme
-@import "minimal-mistakes/minimal-mistakes";
+// Custom styles for dark theme - no theme import needed for remote theme
+// The remote theme handles the base styles automatically
 
 // Custom overrides for dark theme
 body {
