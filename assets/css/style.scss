@@ -1,4 +1,61 @@
----
----
 @import "{{ site.theme }}";
+
+// Dark theme overrides
+body {
+	background: #181a1b;
+	color: #e4e6eb;
+	font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+}
+
+.wrapper {
+	background: #222326;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+header, footer {
+	background: #202124;
+	color: #e4e6eb;
+	border-bottom: 1px solid #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #f5f6fa;
+}
+
+a {
+	color: #58a6ff;
+	text-decoration: none;
+}
+a:hover {
+	color: #1f6feb;
+	text-decoration: underline;
+}
+
+.downloads a {
+	background: #2d333b;
+	color: #e4e6eb;
+	border-radius: 4px;
+	padding: 4px 8px;
+	margin-right: 6px;
+	transition: background 0.2s;
+}
+.downloads a:hover {
+	background: #444c56;
+}
+
+section {
+	background: #222326;
+	padding: 1.5em;
+	border-radius: 8px;
+}
+
+code, pre {
+	background: #282c34;
+	color: #e4e6eb;
+	border-radius: 4px;
+}
+
+img {
+	filter: brightness(0.85) contrast(1.1);
+}
 
