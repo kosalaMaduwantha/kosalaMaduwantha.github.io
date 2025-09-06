@@ -29,6 +29,7 @@ Data Engineer, having 3 plus years of industrial experience specialized in desig
 
 ---
 
+
 # Work Experience
 
 ## Data Engineer BlackSwan Technologies | Feb 2023 - Present
@@ -59,11 +60,39 @@ mesh.
 
 ## Intern - Data Engineer Wiley | Jan 2022 - Jan 2023
 
-# Projects
+- Set up metadata-driven data pipelines to bring data from various data sources.
+- Worked with multiple data sources, bring the data together into a data lake for easier access and analysis.
+- Monitored data pipelines, fixing issues right away to prevent disruptions.
+- Moved data workflows from Tidal to Apache Airflow, making the automation process simpler and faster.
+- Leveraged a range of technologies including Python, Bash, AWS S3, Apache Airflow, Snowflake Cloud Datawarehouse, MySQL and MSSQL to achieve project objectives.
 
-## 1. Real-Time Data Pipeline
-- Built a streaming pipeline using Kafka and Spark Streaming.
-- Deployed on AWS with automated scaling.
+# Personal Projects 
+
+## 1. Contract Inspector
+
+AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This project accelerates contract reviews by grounding LLM outputs on the actual contract text. It ingests documents, retrieves the most relevant clauses, analyzes risks and deviations, answers targeted questions, and produces traceable, structured results for legal teams.
+
+🔧 core module functionalities:
+
+    RAG pipeline orchestration: entity extraction → retrieval → context construction → answer generation.
+    Prompt processing: extract entities, build context, and generate answers.
+    Retrieval options: BM25, vector, and hybrid searches against Weaviate collections; supports metadata filters sourced from metadata.yml.
+    Indexing utilities: create/query Weaviate collections and add data.
+    Exact match/BM25 utilities: BM25 indexing and scoring helpers.
+    PDF processing: partition contract PDFs into chunks suitable for indexing.
+    NER utilities: LLM based Named Entity Recognition.
+
+🛠️ technology and approaches used:
+
+    Language & structure: Python| modular folders under with Adapter style separation of concerns.
+    Vector store & search: Weaviate database for vector store | BM25, vector, and hybrid search modes with optional metadata filters.
+    LLM integration: Service Provider Interface with an Ollama adapter.
+    NLP & parsing: SpaCy models, PDF partitioning utilities; repository also includes dependencies for document processing (e.g., unstructured, pypdf, pdfminer.six).
+    Config & metadata: Centralized configuration including Weaviate schema, system messages, and paths; metadata-driven filtering via metadata.yml.
+
+Project link: https://github.com/kosalaMaduwantha/contract_inspectAI legal 
+
+Skills: Weaviate · Large Language Model Operations (LLMOps) · Retrieval-Augmented Generation (RAG) · Information Retrieval Systems · Python (Programming Language) · Ollama
 
 ## 2. ETL for E-commerce Analytics
 - Designed ETL workflows in Airflow.
