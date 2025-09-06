@@ -97,7 +97,7 @@ defaults:
       comments: true
       share: true
       related: true
-      sidebar: sidebar
+      toc: true  # Add this line
   # _pages
   - scope:
       path: "_pages"
@@ -105,7 +105,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar: sidebar
 
 category_archive:
   type: liquid
