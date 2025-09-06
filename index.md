@@ -30,11 +30,11 @@ Data Engineer, having 3 plus years of industrial experience specialized in desig
 ---
 
 
-# Work Experience
+## Work Experience
 
-## Data Engineer BlackSwan Technologies | Feb 2023 - Present
+### Data Engineer BlackSwan Technologies | Feb 2023 - Present
 
-### Projects:
+#### Projects:
 
 **1. Data Fabric and Knowledge Graph for fin-tech customer i.e. ING and Deutscher bank**
 
@@ -58,7 +58,7 @@ mesh.
 - Built an application(microservice) that processes files on a file server.
 - The processing involves parsing XML files in batches, transforming the data into a domain-specific format, and uploading the transformed data to an Azure Blob container for the downstream consumption.
 
-## Intern - Data Engineer Wiley | Jan 2022 - Jan 2023
+### Intern - Data Engineer Wiley | Jan 2022 - Jan 2023
 
 - Set up metadata-driven data pipelines to bring data from various data sources.
 - Worked with multiple data sources, bring the data together into a data lake for easier access and analysis.
@@ -67,8 +67,8 @@ mesh.
 - Leveraged a range of technologies including Python, Bash, AWS S3, Apache Airflow, Snowflake Cloud Datawarehouse, MySQL and MSSQL to achieve project objectives.
 
 
-# Personal Projects 
-## 1. Contract Inspector
+## Personal Projects 
+### 1. Contract Inspector
 
 AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This project accelerates contract reviews by grounding LLM outputs on the actual contract text. It ingests documents, retrieves the most relevant clauses, analyzes risks and deviations, answers targeted questions, and produces traceable, structured results for legal teams.
 
@@ -94,7 +94,7 @@ AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This
 
 Skills: Weaviate · Large Language Model Operations (LLMOps) · Retrieval-Augmented Generation (RAG) · Information Retrieval Systems · Python (Programming Language) · Ollama
 
-## 2. Changed Data Capture (CDC) File Processor
+### 2. Changed Data Capture (CDC) File Processor
 
 File Change Detection and Streaming processor in Go that monitors text file modifications and publishes changes to message queues in real-time.
 
