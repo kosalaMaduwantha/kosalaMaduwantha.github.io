@@ -25,8 +25,6 @@ Data Engineer, having 3 plus years of industrial experience specialized in desig
 - Version Control: Git, GitHub
 - Containerization: Docker, Kubernetes
 
----
-
 
 ## Work Experience
 
