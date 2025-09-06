@@ -2,9 +2,9 @@
 title: "Personal Projects"
 permalink: /personal-projects/
 layout: single
-author_profile: false
-toc: true
-toc_sticky: true
+author_profile: true
+sidebar:
+  nav: "projects"
 classes: wide
 ---
 

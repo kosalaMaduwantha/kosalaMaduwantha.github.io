@@ -7,14 +7,9 @@ main:
     url: /personal-projects/
 
 
-# home:
-#   - title: "Interests"
-#     url: "#interests"
-#   - title: "Skills"
-#     url: "#skills"
-#   - title: "Work Experience"
-#     url: "#work-experience"
-#   - title: "Personal Projects"
-#     url: "#personal-projects"
-#   - title: "Contact"
-#     url: "#contact"
+projects:
+  - title: "Contract Inspector"
+    url: "###1. Contract Inspector"
+  - title: "Changed Data Capture (CDC) File Processor"
+    url: "###2. Changed Data Capture (CDC) File Processor"
+  
