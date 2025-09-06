@@ -6,7 +6,7 @@ search: false
 @charset "utf-8";
 
 $background-color:  #141717 !default;
-$text-color:        #9FA194 !default;
+$text-color:        #AFB7AD !default;
 $muted-text-color: #5A5E5D !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
