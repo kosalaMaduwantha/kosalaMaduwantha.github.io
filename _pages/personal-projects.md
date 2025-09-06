@@ -8,7 +8,6 @@ sidebar:
 classes: wide
 ---
 
-## Personal Projects 
 ### 1. Contract Inspector
 
 AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This project accelerates contract reviews by grounding LLM outputs on the actual contract text. It ingests documents, retrieves the most relevant clauses, analyzes risks and deviations, answers targeted questions, and produces traceable, structured results for legal teams.
