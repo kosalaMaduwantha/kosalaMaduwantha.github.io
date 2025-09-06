@@ -1,4 +1,4 @@
-# Data Engineer Portfolio
+# Data Engineer
 
 Backend engineer with a focus on building efficient, scalable server-side applications in Python. Experienced in designing APIs, implementing effective algorithms, and integrating third-party services. Known for quickly adapting to new technologies and leveraging them to create robust, high-performing solutions.
 
