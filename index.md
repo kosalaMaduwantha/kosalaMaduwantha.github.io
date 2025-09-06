@@ -2,15 +2,13 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: single
 author_profile: true
 ---
 
-## About
-
 Data Engineer, having 3 plus years of industrial experience specialized in designing and implementing scalable server-side applications and data ingestion pipelines. Proficient in Python, with experience in API development, third-party service integration, and building scalable data pipelines from various data sources. Adept at learning new technologies and applying them effectively to create high-performance, maintainable solutions.
 
-## Interests
+### Interests
 
 - Data pipeline development
 - ETL/ELT processes
@@ -19,7 +17,7 @@ Data Engineer, having 3 plus years of industrial experience specialized in desig
 - Big Data technologies 
 - SQL & NoSQL databases 
 
-## Skills
+### Skills
 
 - Programming: Python, Java, JavaScript, SQL, Bash
 - Data: Spark, Hadoop, Airflow, Kafka, Snowflake
