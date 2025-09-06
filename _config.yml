@@ -19,8 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+github_username: kosalaMaduwantha
 minimal_mistakes_skin: default
 search: true
 
@@ -58,34 +57,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Kosala Maduwantha"
+  avatar : "/assets/images/photo.jpg"
+  bio    : "Backend engineer with a focus on building efficient, scalable server-side applications in Python. Experienced in designing APIs, implementing effective algorithms, and integrating third-party services. Known for quickly adapting to new technologies and leveraging them to create robust, high-performing solutions."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/kosalaMaduwantha"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kosala-maduwantha/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/kosalaMaduwantha"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/kosala-maduwantha/"
 
 defaults:
   # _posts
