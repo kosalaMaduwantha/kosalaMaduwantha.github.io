@@ -66,8 +66,8 @@ mesh.
 - Moved data workflows from Tidal to Apache Airflow, making the automation process simpler and faster.
 - Leveraged a range of technologies including Python, Bash, AWS S3, Apache Airflow, Snowflake Cloud Datawarehouse, MySQL and MSSQL to achieve project objectives.
 
-# Personal Projects 
 
+# Personal Projects 
 ## 1. Contract Inspector
 
 AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This project accelerates contract reviews by grounding LLM outputs on the actual contract text. It ingests documents, retrieves the most relevant clauses, analyzes risks and deviations, answers targeted questions, and produces traceable, structured results for legal teams.
@@ -84,8 +84,8 @@ AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This
 
 🛠️ **technology and approaches used**
 
-- Language & structure: Python| modular folders under with Adapter style separation of concerns.
-- Vector store & search: Weaviate database for vector store | BM25, vector, and hybrid search modes with optional metadata filters.
+- Language & structure: Python - modular folders under with Adapter style separation of concerns.
+- Vector store & search: Weaviate database for vector store - BM25, vector, and hybrid search modes with optional metadata filters.
 - LLM integration: Service Provider Interface with an Ollama adapter.
 - NLP & parsing: SpaCy models, PDF partitioning utilities; repository also includes dependencies for document processing (e.g., unstructured, pypdf, pdfminer.six).
 - Config & metadata: Centralized configuration including Weaviate schema, system messages, and paths; metadata-driven filtering via metadata.yml.
@@ -94,13 +94,26 @@ AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This
 
 Skills: Weaviate · Large Language Model Operations (LLMOps) · Retrieval-Augmented Generation (RAG) · Information Retrieval Systems · Python (Programming Language) · Ollama
 
-## 2. ETL for E-commerce Analytics
-- Designed ETL workflows in Airflow.
-- Integrated multiple data sources into a Redshift data warehouse.
+## 2. Changed Data Capture (CDC) File Processor
 
-## 3. Data Lake Implementation
-- Architected a data lake on AWS S3.
-- Automated ingestion and transformation using Glue.
+File Change Detection and Streaming processor in Go that monitors text file modifications and publishes changes to message queues in real-time.
+
+🔧 Core Features
+- Real-time file change detection using SHA-256 hashing
+- Thread-safe concurrent file processing
+- Message streaming via RabbitMQ
+- Persistent state management
+- Structured logging
+
+🛠️ Tech Stack
+- Go 1.22
+- RabbitMQ
+- JSON for state persistence
+- Logrus for logging
+
+Project link: https://github.com/kosalaMaduwantha/go-changed-data-captureFile 
+
+Skills: Go (Programming Language) · RabbitMQ · CDC
 
 ## Contact
 
