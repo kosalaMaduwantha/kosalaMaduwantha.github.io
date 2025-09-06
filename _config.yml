@@ -22,6 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username: kosalaMaduwantha
 minimal_mistakes_skin: dark
 search: true
+breadcrumbs: true
 
 
 # Build settings
