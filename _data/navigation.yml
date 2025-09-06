@@ -3,10 +3,9 @@ main:
     url: /docs/
   - title: "Posts"
     url: /posts/
-  - title: "About"
-    url: /about/
-  - title: "Contact"
-    url: /contact/
+  - title: "Personal Projects"
+    url: /personal-projects/
+
 
 # home:
 #   - title: "Interests"
