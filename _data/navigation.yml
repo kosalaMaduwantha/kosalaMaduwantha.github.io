@@ -8,14 +8,14 @@ main:
   - title: "Contact"
     url: /contact/
 
-home:
-  - title: "Interests"
-    url: "#interests"
-  - title: "Skills"
-    url: "#skills"
-  - title: "Work Experience"
-    url: "#work-experience"
-  - title: "Personal Projects"
-    url: "#personal-projects"
-  - title: "Contact"
-    url: "#contact"
+# home:
+#   - title: "Interests"
+#     url: "#interests"
+#   - title: "Skills"
+#     url: "#skills"
+#   - title: "Work Experience"
+#     url: "#work-experience"
+#   - title: "Personal Projects"
+#     url: "#personal-projects"
+#   - title: "Contact"
+#     url: "#contact"
