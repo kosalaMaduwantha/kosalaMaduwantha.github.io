@@ -60,7 +60,7 @@ plugins:
 
 author:
   name   : "Kosala Maduwantha"
-  avatar : "/assets/images/photo.jpg"
+  avatar : "/assets/images/photo.png"
   bio    : "Data Engineer - Big Data Enthusiast - AI/ML Practitioner"
   links:
     - label: "Website"
