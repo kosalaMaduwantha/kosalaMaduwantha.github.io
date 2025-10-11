@@ -1,6 +1,6 @@
 ---
 title: "Atlas Insights Readme"
-permalink: /atlas-insights-docs/
+permalink: /atlas-insights-readme/
 layout: posts
 author_profile: true
 ---
