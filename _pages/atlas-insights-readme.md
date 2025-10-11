@@ -22,7 +22,7 @@ Built with Python, PyArrow, FastAPI, and Kafka; designed to standardize how raw 
 ---
 ## 🗺️ High-Level Architecture
 
-![Atlas Insights High-Level Architecture](images/Atlas Insights-High Level Architecture(in progress).drawio.svg)
+<img src="images/Atlas Insights-High Level Architecture(in progress).drawio.svg" alt="Alt text" />
 
 ---
 ## ✨ Key Features
