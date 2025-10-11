@@ -20,7 +20,7 @@ Data Ingestion module is implemented for three primary source types:
 Built with Python, PyArrow, FastAPI, and Kafka; designed to standardize how raw operational data is landed into an analytics‑friendly lake/warehouse zone (HDFS Parquet) using a **single metadata contract**.
 
 **Highlevel architecture:**
-<img src="images/Atlas Insights-High Level Architecture(in progress).drawio.svg" alt="Alt text" />
+<img src="images/atlas_insights_architecture.svg" alt="Alt text" />
 
 🔧 **core module functionalities**
 
