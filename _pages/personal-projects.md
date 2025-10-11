@@ -8,7 +8,37 @@ sidebar:
   nav: "projects"
 ---
 
-### 1. Contract Inspector
+### 1. Atlas Insights
+Comprehensive, metadata‑driven ingestion and analytics framework for big data.
+
+Data Ingestion module is implemented for three primary source types:
+
+- File system (CSV ➜ Parquet on HDFS)
+- Relational databases (MySQL / PostgreSQL / SQL Server ➜ Parquet on HDFS)
+- Streaming (WebSocket JSON ➜ Kafka topics – foundation for near‑real‑time ingestion)
+
+Built with Python, PyArrow, FastAPI, and Kafka; designed to standardize how raw operational data is landed into an analytics‑friendly lake/warehouse zone (HDFS Parquet) using a **single metadata contract**.
+
+🔧 **core module functionalities**
+
+- Metadata‑driven: single metadata contract defines source, destination, schema, and transformations.
+- Data ingestion: batch (file, RDBMS) and streaming (Kafka).
+- Data transformation and validation: column mapping, type casting, basic cleansing (Can be configured via metadata).
+- Target storage: writes to HDFS in Parquet format. Apache Hive will be integrated for data management in hdfs filesystem.
+- Error handling and logging: centralized error handling and logging for all ingestion processes. Log aggregation and monitoring yet to be implemented.
+- Downstream applications: Reporting service and Recommendation engine (in progress).
+
+🛠️ **technology and approaches used**
+
+- Data ingestion: Python (FastAPI, PyArrow) for RDBMS and Flat files ingestion and Apache Kafka for streaming data.
+- Ochestration: Apache Airflow for scheduling and monitoring ingestion workflows.
+- Data storage: HDFS for raw data, Apache Hive for data management (in progress).
+- Data processing: Apache Spark for data transformation and validation on top of hdfs file system (in progress).
+- Monitoring: Prometheus and Grafana for monitoring and alerting (in progress).
+
+<a href="/atlas-insights-readme/" class="btn btn--primary">View Detailed Documentation</a>
+
+### 2. Contract Inspector
 
 AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This project accelerates contract reviews by grounding LLM outputs on the actual contract text. It ingests documents, retrieves the most relevant clauses, analyzes risks and deviations, answers targeted questions, and produces traceable, structured results for legal teams.
 
@@ -32,9 +62,8 @@ AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This
 
 **Project link:** https://github.com/kosalaMaduwantha/contract_inspectAI legal 
 
-Skills: Weaviate · Large Language Model Operations (LLMOps) · Retrieval-Augmented Generation (RAG) · Information Retrieval Systems · Python (Programming Language) · Ollama
 
-### 2. Changed Data Capture (CDC) File Processor
+### 3. Changed Data Capture (CDC) File Processor
 
 File Change Detection and Streaming processor in Go that monitors text file modifications and publishes changes to message queues in real-time.
 
@@ -53,4 +82,3 @@ File Change Detection and Streaming processor in Go that monitors text file modi
 
 Project link: https://github.com/kosalaMaduwantha/go-changed-data-captureFile 
 
-Skills: Go (Programming Language) · RabbitMQ · CDC
