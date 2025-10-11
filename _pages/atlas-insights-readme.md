@@ -1,7 +1,7 @@
 ---
 title: "Atlas Insights Readme"
 permalink: /atlas-insights-readme/
-layout: posts
+layout: single
 author_profile: true
 ---
 
