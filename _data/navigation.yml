@@ -5,8 +5,8 @@ main:
     url: /docs/
   - title: "Posts"
     url: /posts/
-  - title: "Atlas Insights"
-    url: /atlas-insights-readme/
+  # - title: "Atlas Insights"
+  #   url: /atlas-insights-readme/
   
 
 projects:

@@ -1,3 +1,10 @@
+---
+title: "Atlas Insights Readme"
+permalink: /atlas-insights-docs/
+layout: posts
+author_profile: true
+---
+
 Atlas Insights – Data Ingestion & Big Data Analytics Framework
 =======================================================
 
