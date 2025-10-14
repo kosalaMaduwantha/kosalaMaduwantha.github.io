@@ -70,6 +70,9 @@ AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This
 
 File Change Detection and Streaming processor in Go that monitors text file modifications and publishes changes to message queues in real-time.
 
+**Highlevel architecture:**
+![CDC file processor High-Level Architecture](</assets/images/cdc-file-processor-general-architecture.drawio.svg>)
+
 🔧 Core Features
 - Real-time file change detection using SHA-256 hashing
 - Thread-safe concurrent file processing
@@ -82,6 +85,8 @@ File Change Detection and Streaming processor in Go that monitors text file modi
 - RabbitMQ
 - JSON for state persistence
 - Logrus for logging
+
+<a href="/cdc-file-processor-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
 Project link: https://github.com/kosalaMaduwantha/go-changed-data-captureFile 
 

@@ -19,7 +19,7 @@ Data Engineer, having 3 plus years of industrial experience specialized in desig
 
 - Data pipeline development
 - ETL/ELT processes
-- AI/ML model deployment 
+- AI/ML applications development (RAG, Agent-based systems)
 - Cloud data platforms 
 - Big Data technologies 
 - SQL & NoSQL databases 
