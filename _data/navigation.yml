@@ -8,8 +8,10 @@ main:
   
 
 projects:
+  - title: "Atlas Insights"
+    url: "/personal-projects/#1-atlas-insights"
   - title: "Contract Inspector"
-    url: "/personal-projects/#1-contract-inspector"
+    url: "/personal-projects/#2-contract-inspector"
   - title: "Changed Data Capture (CDC) File Processor"
-    url: "/personal-projects/#2-changed-data-capture-cdc-file-processor"
+    url: "/personal-projects/#3-changed-data-capture-cdc-file-processor"
   
