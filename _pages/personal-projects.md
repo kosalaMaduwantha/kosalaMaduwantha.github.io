@@ -41,7 +41,28 @@ Built with Python, PyArrow, FastAPI, and Kafka; designed to standardize how raw 
 
 <a href="/atlas-insights-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
-### 2. Contract Inspector
+### 2. Meta Config
+
+This project is a RESTful API built using FastAPI, designed to manage metadata for data platforms. It provides endpoints for creating and retrieving metadata entities such as data sources, datasets, versions, schemas, columns, and data quality rules. The application is structured using the hexagonal architecture pattern (also known as ports and adapters), allowing for easy integration with various data storage solutions (e.g., MySQL, Neo4j) and providing a clear separation of concerns.
+
+The API enables scalable data ingestion pipelines by maintaining comprehensive metadata about data sources, datasets, their schemas, versions, and quality rules. It uses Neo4j as the primary graph database for storing and querying metadata relationships.
+
+**Core Module Functionalities:**
+- Metadata Management: CRUD operations for data sources, datasets, versions, schemas, columns, and data quality rules.
+- Graph Database Integration: Utilizes Neo4j to represent and manage complex relationships between metadata entities.
+- RESTful API: Built with FastAPI, providing a user-friendly interface for interacting with metadata.
+- Hexagonal Architecture: Implements ports and adapters pattern for flexibility and maintainability.
+- Validation and Error Handling: Ensures data integrity and provides meaningful error messages.
+- Documentation: API documentation using Swagger UI.
+
+**Technology and Approaches Used:**
+- Language & Framework: Python with FastAPI for building the RESTful API.
+- Database: Neo4j for graph-based metadata storage; SQLAlchemy for relational database interactions (MySQL).
+- Architecture: Hexagonal architecture for modularity and separation of concerns.
+
+<a href="/meta-config-readme/" class="btn btn--primary">View Detailed Documentation</a>
+
+### 3. Contract Inspector
 
 AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This project accelerates contract reviews by grounding LLM outputs on the actual contract text. It ingests documents, retrieves the most relevant clauses, analyzes risks and deviations, answers targeted questions, and produces traceable, structured results for legal teams.
 
@@ -71,7 +92,7 @@ AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This
 **Project link:** https://github.com/kosalaMaduwantha/contract_inspectAI legal 
 
 
-### 3. Changed Data Capture (CDC) File Processor
+### 4. Changed Data Capture (CDC) File Processor
 
 File Change Detection and Streaming processor in Go that monitors text file modifications and publishes changes to message queues in real-time.
 
