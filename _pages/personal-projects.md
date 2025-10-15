@@ -45,6 +45,9 @@ Built with Python, PyArrow, FastAPI, and Kafka; designed to standardize how raw 
 
 AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This project accelerates contract reviews by grounding LLM outputs on the actual contract text. It ingests documents, retrieves the most relevant clauses, analyzes risks and deviations, answers targeted questions, and produces traceable, structured results for legal teams.
 
+**Highlevel architecture:**
+![Contract Inspector High-Level Architecture](</assets/images/Contract-nspact-RAG project-retriever.drawio.svg>)
+
 🔧 **core module functionalities**
 
 - RAG pipeline orchestration: entity extraction → retrieval → context construction → answer generation.
@@ -62,6 +65,8 @@ AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This
 - LLM integration: Service Provider Interface with an Ollama adapter.
 - NLP & parsing: SpaCy models, PDF partitioning utilities; repository also includes dependencies for document processing (e.g., unstructured, pypdf, pdfminer.six).
 - Config & metadata: Centralized configuration including Weaviate schema, system messages, and paths; metadata-driven filtering via metadata.yml.
+
+<a href="/contract-inspect-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
 **Project link:** https://github.com/kosalaMaduwantha/contract_inspectAI legal 
 
