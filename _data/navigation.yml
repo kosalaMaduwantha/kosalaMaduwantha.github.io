@@ -10,8 +10,9 @@ main:
 projects:
   - title: "Atlas Insights"
     url: "/personal-projects/#1-atlas-insights"
+  - title: "Meta Config Manager"
+    url: "/personal-projects/#2-meta-config"
   - title: "Contract Inspector"
-    url: "/personal-projects/#2-contract-inspector"
+    url: "/personal-projects/#3-contract-inspector"
   - title: "Changed Data Capture (CDC) File Processor"
-    url: "/personal-projects/#3-changed-data-capture-cdc-file-processor"
-  
+    url: "/personal-projects/#4-changed-data-capture-cdc-file-processor"
