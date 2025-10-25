@@ -156,5 +156,5 @@ File Change Detection and Streaming processor in Go that monitors text file modi
 
 <a href="/cdc-file-processor-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
-*Project link: https://github.com/kosalaMaduwantha/go-changed-data-capture *
+*Project link: https://github.com/kosalaMaduwantha/go-changed-data-capture*
 
