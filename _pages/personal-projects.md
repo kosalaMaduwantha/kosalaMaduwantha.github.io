@@ -3,7 +3,6 @@ title: "Personal Projects"
 permalink: /personal-projects/
 layout: single
 classes: wide
-author_profile: true
 sidebar:
   nav: "projects"
 ---
