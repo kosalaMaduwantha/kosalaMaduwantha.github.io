@@ -6,6 +6,7 @@ classes: wide
 sidebar:
   nav: "projects"
 ---
+## Data Engineering
 
 ### 1. Atlas Insights
 Comprehensive, metadata‑driven ingestion and analytics framework for big data.
@@ -39,8 +40,8 @@ Built with Python, PyArrow, FastAPI, and Kafka; designed to standardize how raw 
 - Monitoring: Prometheus and Grafana for monitoring and alerting (in progress).
 
 <a href="/atlas-insights-readme/" class="btn btn--primary">View Detailed Documentation</a>
+
 *Project link: https://github.com/kosalaMaduwantha/atlas-insights*
-> **note**: Please request access to the private repo if needed.
 
 ### 2. Data Lake ETL
 Suite of Python ETL services for extracting, transforming, and loading data into a unified Data Lake environment. The architecture is modular, metadata-driven, and cloud-agnostic, supporting seamless migration between storage and warehouse solutions.
@@ -75,8 +76,9 @@ Suite of Python ETL services for extracting, transforming, and loading data into
 - Metadata-driven pipeline management
 
 <a href="/data-lake-etl-readme/" class="btn btn--primary">View Detailed Documentation</a>
+
 *Project link: https://github.com/kosalaMaduwantha/data-lake-etl*
->
+> **note**: Please request access to the private repo if needed.
 
 
 ### 3. Meta Config
@@ -99,6 +101,9 @@ The API enables scalable data ingestion pipelines by maintaining comprehensive m
 - Architecture: Hexagonal architecture for modularity and separation of concerns.
 
 <a href="/meta-config-readme/" class="btn btn--primary">View Detailed Documentation</a>
+
+*Project link: https://github.com/kosalaMaduwantha/meta-config*
+> **note**: Please request access to the private repo if needed.
 
 ### 4. Contract Inspector
 
@@ -127,8 +132,7 @@ AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This
 
 <a href="/contract-inspect-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
-**Project link:** https://github.com/kosalaMaduwantha/contract_inspectAI legal 
-
+*Project link: https://github.com/kosalaMaduwantha/contract_inspect*  
 
 ### 5. Changed Data Capture (CDC) File Processor
 
@@ -152,5 +156,5 @@ File Change Detection and Streaming processor in Go that monitors text file modi
 
 <a href="/cdc-file-processor-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
-Project link: https://github.com/kosalaMaduwantha/go-changed-data-captureFile 
+*Project link: https://github.com/kosalaMaduwantha/go-changed-data-capture *
 
