@@ -41,6 +41,9 @@ Built with Python, PyArrow, FastAPI, and Kafka; designed to standardize how raw 
 
 <a href="/atlas-insights-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
+### 2. Data Lake ETL
+
+
 ### 2. Meta Config
 
 This project is a RESTful API built using FastAPI, designed to manage metadata for data platforms. It provides endpoints for creating and retrieving metadata entities such as data sources, datasets, versions, schemas, columns, and data quality rules. The application is structured using the hexagonal architecture pattern (also known as ports and adapters), allowing for easy integration with various data storage solutions (e.g., MySQL, Neo4j) and providing a clear separation of concerns.
