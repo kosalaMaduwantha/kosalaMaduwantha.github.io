@@ -183,4 +183,5 @@ End-to-end ETL solution using SQL Server Integration Services (SSIS) to build a 
 - Incremental data loading techniques
 
 <a href="/ssis-warehouse-readme/" class="btn btn--primary">View Detailed Documentation</a>
-*Project link: https://github.com/kosalaMaduwantha/ssis-warehouse*
+
+*Project link: https://github.com/kosalaMaduwantha/Microsoft_BI_DataWarehouse_Project*

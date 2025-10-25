@@ -2,8 +2,6 @@
 title: "SSIS Data Warehouse - Formula 1 Championship ETL Project"
 excerpt: "A comprehensive ETL solution using SSIS for Formula 1 Championship data warehousing"
 permalink: /ssis-warehouse-readme/
-toc: true
-toc_sticky: true
 ---
 
 ## Project Overview
