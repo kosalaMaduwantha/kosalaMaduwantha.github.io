@@ -3,7 +3,7 @@ title: "Meta Config Readme"
 permalink: /meta-config-readme/
 layout: single
 classes: wide
-author_profile: true
+# author_profile: true
 ---
 
 # Metadata Management for Data Platforms

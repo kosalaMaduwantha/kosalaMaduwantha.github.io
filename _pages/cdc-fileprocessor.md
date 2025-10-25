@@ -3,7 +3,7 @@ title: "CDC File Processor Readme"
 permalink: /cdc-file-processor-readme/
 layout: single
 classes: wide
-author_profile: true
+# author_profile: true
 ---
 
 # Changed Data Capture (CDC) File Processor Documentation

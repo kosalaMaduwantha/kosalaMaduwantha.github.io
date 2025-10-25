@@ -3,7 +3,7 @@ title: "Data Lake ETL Readme"
 permalink: /data-lake-etl-readme/
 layout: single
 classes: wide
-author_profile: true
+# author_profile: true
 ---
 
 This project contains a suite of ETL services that extract, transform, and load data into a unified Data Lake environment. The Data Lake architecture is designed as depicted in the following diagram.

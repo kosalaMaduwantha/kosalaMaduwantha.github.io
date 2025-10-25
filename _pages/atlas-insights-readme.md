@@ -3,7 +3,7 @@ title: "Atlas Insights Readme"
 permalink: /atlas-insights-readme/
 layout: single
 classes: wide
-author_profile: true
+# author_profile: true
 ---
 
 Atlas Insights – Data Ingestion & Big Data Analytics Framework

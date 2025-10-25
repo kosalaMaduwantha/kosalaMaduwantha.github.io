@@ -3,7 +3,7 @@ title: "Contract Inspector Readme"
 permalink: /contract-inspect-readme/
 layout: single
 classes: wide
-author_profile: true
+# author_profile: true
 ---
 
 # Architecture Guide
