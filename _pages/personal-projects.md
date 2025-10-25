@@ -41,10 +41,43 @@ Built with Python, PyArrow, FastAPI, and Kafka; designed to standardize how raw 
 
 <a href="/atlas-insights-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
+
 ### 2. Data Lake ETL
+Suite of Python ETL services for extracting, transforming, and loading data into a unified Data Lake environment. The architecture is modular, metadata-driven, and cloud-agnostic, supporting seamless migration between storage and warehouse solutions.
+
+**Highlevel architecture:**
+![Data Lake ETL Architecture](</assets/images/architecture-data-project-alfa-Architecture.drawio.svg>)
+
+🔧 **core module functionalities**
+
+- **Data source support:** RDBMS (MySQL, Postgres, MSSQL, Oracle), flat files (CSV, TSV), and REST APIs.
+- **Metadata service:** Unified metastore for source metadata, pipeline lineage, and error tracking.
+- **Raw data storage:** Object storage (AWS S3 by default, easily migratable) for source files in CSV, JSON, TSV, XLSX, XML, or Parquet formats.
+- **Processed data layers:**
+  - *Landing storage*: Loads changed (delta/new) data.
+  - *Base layer (ODS)*: Maintains structured, cleaned, and validated data identical to source.
+  - *Analytics layer*: Denormalized, analytics-ready data (star/snowflake/galaxy models), with DW and aggregate sub-layers.
+- **Target warehouse:** Processed and analytics layers built on Snowflake (migratable to Redshift, BigQuery, etc.).
+- **ETL orchestration:** Apache Airflow for workflow management; hexagonal architecture (ports & adapters) for modularity and testability.
+- **RDBMS to Data Lake ETL:**
+  - Retrieves extraction configs from metadata service.
+  - Supports incremental and full extraction with batching.
+  - Processes, validates, and saves batches as CSV/Parquet for downstream loading.
+  - Modular design enables easy extension to new platforms and data sources.
+
+🛠️ **technology and approaches used**
+
+- Python (ETL services)
+- Apache Airflow (orchestration)
+- AWS S3 (raw storage, pluggable)
+- Snowflake (data warehouse, pluggable)
+- Hexagonal architecture (ports & adapters)
+- Metadata-driven pipeline management
+
+<a href="/data-lake-etl-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
 
-### 2. Meta Config
+### 3. Meta Config
 
 This project is a RESTful API built using FastAPI, designed to manage metadata for data platforms. It provides endpoints for creating and retrieving metadata entities such as data sources, datasets, versions, schemas, columns, and data quality rules. The application is structured using the hexagonal architecture pattern (also known as ports and adapters), allowing for easy integration with various data storage solutions (e.g., MySQL, Neo4j) and providing a clear separation of concerns.
 
@@ -65,7 +98,7 @@ The API enables scalable data ingestion pipelines by maintaining comprehensive m
 
 <a href="/meta-config-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
-### 3. Contract Inspector
+### 4. Contract Inspector
 
 AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This project accelerates contract reviews by grounding LLM outputs on the actual contract text. It ingests documents, retrieves the most relevant clauses, analyzes risks and deviations, answers targeted questions, and produces traceable, structured results for legal teams.
 
@@ -95,7 +128,7 @@ AI legal contract screener for rapid risk and clause assessment (LLM + RAG) This
 **Project link:** https://github.com/kosalaMaduwantha/contract_inspectAI legal 
 
 
-### 4. Changed Data Capture (CDC) File Processor
+### 5. Changed Data Capture (CDC) File Processor
 
 File Change Detection and Streaming processor in Go that monitors text file modifications and publishes changes to message queues in real-time.
 
