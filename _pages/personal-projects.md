@@ -39,7 +39,8 @@ Built with Python, PyArrow, FastAPI, and Kafka; designed to standardize how raw 
 - Monitoring: Prometheus and Grafana for monitoring and alerting (in progress).
 
 <a href="/atlas-insights-readme/" class="btn btn--primary">View Detailed Documentation</a>
-
+*Project link: https://github.com/kosalaMaduwantha/atlas-insights*
+> **note**: Please request access to the private repo if needed.
 
 ### 2. Data Lake ETL
 Suite of Python ETL services for extracting, transforming, and loading data into a unified Data Lake environment. The architecture is modular, metadata-driven, and cloud-agnostic, supporting seamless migration between storage and warehouse solutions.
@@ -74,6 +75,8 @@ Suite of Python ETL services for extracting, transforming, and loading data into
 - Metadata-driven pipeline management
 
 <a href="/data-lake-etl-readme/" class="btn btn--primary">View Detailed Documentation</a>
+*Project link: https://github.com/kosalaMaduwantha/data-lake-etl*
+>
 
 
 ### 3. Meta Config
