@@ -158,3 +158,29 @@ File Change Detection and Streaming processor in Go that monitors text file modi
 
 *Project link: https://github.com/kosalaMaduwantha/go-changed-data-capture*
 
+### 6. SSIS Data Warehouse for Formula 1 Championship
+
+End-to-end ETL solution using SQL Server Integration Services (SSIS) to build a dimensional data warehouse for Formula 1 Championship analytics.
+
+**Key Features:**
+- Comprehensive ETL process for multi-source data integration
+- Snowflake schema design for optimized query performance
+- Support for slowly changing dimensions (SCD)
+
+**Architecture Overview:**
+![Architecture Diagram - Placeholder](</assets/images/sol-architecture-ssis-project.png>)
+
+🔧 Core Module Functionalities
+- ETL orchestration using SSIS
+- Data transformation and cleansing
+- Dimensional modeling for data warehouse
+- Support for incremental data loads
+
+🛠️ Technology and Approaches Used
+- SQL Server Integration Services (SSIS) for ETL orchestration
+- T-SQL for data transformation and cleansing
+- Snowflake schema design for data warehouse
+- Incremental data loading techniques
+
+<a href="/ssis-warehouse-readme/" class="btn btn--primary">View Detailed Documentation</a>
+*Project link: https://github.com/kosalaMaduwantha/ssis-warehouse*
