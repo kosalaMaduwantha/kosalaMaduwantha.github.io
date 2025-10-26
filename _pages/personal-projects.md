@@ -215,3 +215,33 @@ A comprehensive web-based dashboard for visualizing and analyzing customer purch
 <a href="/bread-basket-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
 *Project link: https://github.com/kosalaMaduwantha/bread-basket*
+
+
+### 8. Air Passenger Satisfaction Prediction Dashboard
+A web-based analytics dashboard for predicting and visualizing airline passenger satisfaction using machine learning and interactive data visualizations.
+
+**Highlevel architecture:**
+*Dash (Plotly) SPA with modular pages, SVM-based ML model, and centralized configuration for scalable analytics and real-time interactivity.*
+
+🔧 **core module functionalities**
+
+- Interactive data visualizations: real-time, responsive charts and graphs for multi-dimensional satisfaction analysis (age, class, gender, loyalty, travel type, service ratings)
+- Machine learning: SVM classifier for binary satisfaction prediction, trained on demographic and service rating features
+- Categorical and service rating analysis: dynamic histograms, bar charts, pie charts, and faceted views for deep insights
+- Modular, maintainable codebase: MVC pattern, centralized config, and reusable components
+- Data preprocessing: label encoding, aggregation, and efficient data loading
+- Deployment-ready: Heroku and Docker support, production server with Gunicorn
+
+🛠️ **technology and approaches used**
+
+- Python 3.8+
+- Dash (Plotly), Dash Bootstrap Components, Flask
+- scikit-learn (SVM), pandas, numpy, mlxtend, statsmodels
+- Plotly Express, matplotlib for visualizations
+- Modular code: separate modules for config, utils, pages, and models
+- Responsive UI: Bootstrap 5, Bootswatch LUX theme, custom CSS
+- Production: Gunicorn, Flask-Compress, Docker, Heroku deployment
+
+<a href="/air-passenger-pred-readme/" class="btn btn--primary">View Detailed Documentation</a>
+
+*Project link: https://github.com/kosalaMaduwantha/air-passenger-sat*
