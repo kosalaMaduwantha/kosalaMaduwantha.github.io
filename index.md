@@ -75,8 +75,8 @@ mesh.
 
 ## Contact
 
-- Email: [your.email@example.com]
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [Your GitHub Profile]
+- Email: [kosalamaduwantha0@gmail.com](mailto:kosalamaduwantha0@gmail.com)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/kosala-maduwantha/)
+- GitHub: [GitHub Profile](https://github.com/kosalaMaduwantha)
 # kosalaMaduwantha.github.io
 portfolio site 
