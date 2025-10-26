@@ -6,7 +6,7 @@ classes: wide
 sidebar:
   nav: "projects"
 ---
-## Data Engineering
+## Data Engineering and AI/ML Projects
 
 ### 1. Atlas Insights
 Comprehensive, metadata‑driven ingestion and analytics framework for big data.
@@ -185,3 +185,33 @@ End-to-end ETL solution using SQL Server Integration Services (SSIS) to build a 
 <a href="/ssis-warehouse-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
 *Project link: https://github.com/kosalaMaduwantha/Microsoft_BI_DataWarehouse_Project*
+
+
+### 7. Bread Basket Analysis
+A comprehensive web-based dashboard for visualizing and analyzing customer purchasing patterns in a bakery using **Association Rule Mining** and **Market Basket Analysis**.
+
+**Highlevel architecture:**
+*Interactive dashboard built with Dash (Plotly) and Python, leveraging the Apriori algorithm for association rule mining.*
+
+🔧 **core module functionalities**
+
+- Market Basket Analysis using the Apriori algorithm to discover frequent itemsets and association rules from transaction data.
+- Interactive visualizations: bar charts (top-selling items), heatmaps (product associations), network graphs (item relationships), and dynamic tables for recommendations.
+- Association rules explorer: filter and sort rules by confidence, lift, and support; view recommended pairings for any product.
+- Configurable parameters: adjustable thresholds for lift and confidence, customizable number of top items/associations displayed.
+- Efficient data loading with singleton pattern for performance and memory optimization.
+- Modular page structure for maintainability and scalability.
+
+🛠️ **technology and approaches used**
+
+- Python 3.8+
+- Dash (Plotly) for web UI and interactive visualizations
+- mlxtend for Apriori algorithm and rule mining
+- pandas for data manipulation
+- scikit-learn for ML utilities
+- Modular codebase: separate modules for data loading, configuration, utilities, and visualization
+- Deployment-ready: Heroku configuration included (Procfile, runtime.txt)
+
+<a href="/bread-basket-readme/" class="btn btn--primary">View Detailed Documentation</a>
+
+*Project link: https://github.com/kosalaMaduwantha/bread-basket*
