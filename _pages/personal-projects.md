@@ -248,7 +248,7 @@ A web-based analytics dashboard for predicting and visualizing airline passenger
 
 ## Software Development Projects
 
-### 9. Dieb-trek Physical Activity Routine Creation Module
+### 9. Dieb trek Physical Activity Routine Creation Module
 
 Dynamic routine creation feature of the Dieb-trek selfcare mobile application for people with diabetes. diab-trek is a diabetes self-care application created on behalf of the academic research project. in this section covers the dynamic physical activity creation module which is a feature of the application.
 
@@ -289,7 +289,7 @@ Skills: Java · Spring Framework · JSON Web Token (JWT) · Authentication and A
 
 *Link to the project: https://github.com/kosalaMaduwantha/exp-tracker*
 
-### 11. Employee Self-Service Portal Backend
+### 11. Employee Self Service Portal Backend
 
 A robust backend application for an Employee Self-Service (ESS) portal, developed using Django Rest Framework (DRF) and PostgreSQL.
 This backend application provides a Self-Service portal, optimizing HR processes, and enhancing productivity and employee satisfaction.
