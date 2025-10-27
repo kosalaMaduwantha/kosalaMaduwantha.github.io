@@ -245,3 +245,64 @@ A web-based analytics dashboard for predicting and visualizing airline passenger
 <a href="/air-passenger-pred-readme/" class="btn btn--primary">View Detailed Documentation</a>
 
 *Project link: https://github.com/kosalaMaduwantha/air-passenger-sat*
+
+## Software Development Projects
+
+### 9. Dieb-trek Physical Activity Routine Creation Module
+
+Dynamic routine creation feature of the Dieb-trek selfcare mobile application for people with diabetes. diab-trek is a diabetes self-care application created on behalf of the academic research project. in this section covers the dynamic physical activity creation module which is a feature of the application.
+
+🔧 core module functionalities :
+  - Physical activity recommendation using machine learning (classification approach)
+  - Dynamic physical routine creation using optimization problem-solving method.
+
+🛠️ technology and approaches used:
+  - Core Modules: python | OOP concepts | observability 
+  - Backend Application: python Flask | API development | microservices | Serialization | Database programming
+  - Client Application: Flutter cross-platform mobile application development framework | API integration
+
+*Backend project link: https://github.com/kosalaMaduwantha/physical_activity_routine_creation_module*
+
+### 10. Expense Tracker Application
+
+A comprehensive Spring Boot-powered expense tracking application that enables users to manage their financial transactions efficiently. Built with Java, Spring Security, and MySQL, the application provides robust user authentication, expense categorization, and secure data management.
+
+🔧 Core Features:
+  - User registration and authentication with JWT security
+  - Expense tracking with multi-currency support
+  - Customizable expense categories
+  - Secure password encryption
+  - RESTful API design for seamless integration
+
+🛠️ Technologies: 
+  - Java 
+  - Spring Boot, 
+  - Spring Security,
+  - JPA 
+  - MySQL,
+  - JWT 
+  - Lombok 
+  - H2 Database
+
+
+Skills: Java · Spring Framework · JSON Web Token (JWT) · Authentication and Authorization · SQL
+
+*Link to the project: https://github.com/kosalaMaduwantha/exp-tracker*
+
+### 11. Employee Self-Service Portal Backend
+
+A robust backend application for an Employee Self-Service (ESS) portal, developed using Django Rest Framework (DRF) and PostgreSQL.
+This backend application provides a Self-Service portal, optimizing HR processes, and enhancing productivity and employee satisfaction.
+
+🛠️ Core features
+  - The ESS portal’s backend will use Django Rest Framework (DRF) with PostgreSQL for a robust and scalable API implementation.
+  - Used Django ORM to abstract and handle all database operations by defining model schemas. 
+  - These schemas encapsulate the application’s business logic, providing a structured representation of the data.
+  - Used serializers to encode and decode data upon sending the data away and in to the application.
+  - This is a containerized application which can be created and deployed in any containerized environment.
+
+Skills: Python (Programming Language) · Django REST Framework · PostgreSQL
+
+*Link to the project: https://github.com/kosalaMaduwantha/emp_self_service_portal*
+
+
